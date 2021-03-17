@@ -1,0 +1,29 @@
+.box1{
+    width: 945px;
+    height: 370px;
+    border: 1px solid black;
+    color: white;
+    font-size:40px;
+        background-image: url("../img/01.jpg");
+        /* ここからできなかった */
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: cover;
+        /* flexboxを使う時は縦横どちらも使う必要があるみたい */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box2{
+    display:flex;
+    justify-content:space-between;
+    width: 680px;
+    height: 150px;
+}
+/* ここからできなかった */
+/* imgにCSSを指定するのではなく、box2のimgにCSSを指定する*/
+.box2 img{
+    width:150px;
+    height:150px;
+}

@@ -1,0 +1,39 @@
+.box1 {
+  background: pink;
+  width: 100px;
+  height: 300px;
+}
+
+/* box2 は　青 */
+
+.box2 {
+  background: blue;
+  width: 100px;
+  height: 200px;
+}
+
+/* box3 は グレイ */
+.box3 {
+  background: gray;
+  width: 100px;
+  height: 100px;
+}
+
+
+/* box4 は きいろ */
+.box4 {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* df + tabキー */
+/* 横並びにしたいものだけを囲ったdiv */
+.box{
+  display: flex;
+}
